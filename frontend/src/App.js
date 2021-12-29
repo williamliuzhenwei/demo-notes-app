@@ -3,7 +3,6 @@ import Navbar from "react-bootstrap/Navbar";
 import "./App.css";
 import Routes from "./Routes";
 import Nav from "react-bootstrap/Nav";
-import { LinkContainer } from "react-router-bootstrap";
 // import { IndexLinkContainer } from "react-router-bootstrap";
 import { AppContext } from "./lib/contextLib";
 import { useHistory } from "react-router-dom";
