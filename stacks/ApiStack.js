@@ -12,7 +12,7 @@ export default class ApiStack extends sst.Stack {
     // Create the API
     this.api = new sst.Api(this, "Api", {
     customDomain:
-  scope.stage === "prod" ? "willliuzhenwei.link" : undefined,
+        scope.stage === "prod" ? "api.willliuzhenwei.link" : undefined,
       defaultAuthorizationType: "AWS_IAM",
       defaultFunctionProps: {
         environment: {
