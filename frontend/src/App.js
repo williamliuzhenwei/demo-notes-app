@@ -59,9 +59,10 @@ function App() {
               {isAuthenticated ? (
               <>
                 <Nav.Link as={Link} to="/settings">
-                  <Nav.Link>Settings</Nav.Link>
+                    Settings
+                  
                 </Nav.Link>
-                <Nav.Link  onClick={handleLogout} style={{marginTop:7}}>
+                <Nav.Link  onClick={handleLogout} >
                   Logout
                 </Nav.Link>
               </>
